@@ -1,0 +1,7 @@
+.vscode/
+
+.mypy_cache/
+
+test.db
+
+venv/
