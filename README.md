@@ -1,6 +1,6 @@
 # Automatisierte Schnittstellen-Regressionstests WIP
 
-##Dokumentation für Bereich MMS
+## Dokumentation für Bereich MMS
 
 ## Inhaltsverzeichnis
 - [Übersicht](Übersicht)
