@@ -19,7 +19,7 @@
 
 Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem es erwartete lokale Daten mit den tatsächlichen API-Antworten vergleicht, und generiert einen HTML-Bericht, der etwaige Unterschiede hervorhebt. Die Test-Szenarien sind in JSON-Dateien im Verzeichnis "testcases" definiert.
 
-## Abhängigkeiten
+## [Abhängigkeiten](#Abhängigkeiten)
 
 - axios: Ein auf Versprechungen basierender HTTP-Client für das Senden von API-Anfragen über Node.
 - path: Ein Modul zur Verarbeitung von Dateipfaden.
@@ -30,13 +30,13 @@ Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem e
 - jsonabc: Eine Bibliothek zum Sortieren von JSON-Objekten in einer kanonischen Reihenfolge.
 - luxon: Eine Bibliothek zur Arbeit mit Datum und Uhrzeit.
 
-## Umgebungsvariablen
+## [Umgebungsvariablen](#Umgebungsvariablen)
 
   - TOKENURL: Die URL zum Abrufen des API-Zugriffstoken.
   - USERNAME: Der Benutzername für die Authentifizierung.
   - PASSWORD: Das Passwort für die Authentifizierung.
 
-## Struktur des Skripts
+## [Struktur des Skripts](#StrukturSkript)
 
 1. Umgebungseinrichtung:
    - Import der erforderlichen Module und Bibliotheken.
@@ -62,11 +62,11 @@ Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem e
    - Aufruf der Funktion "apiRequest" zur Initiierung der API-Tests.
    - Generierung des HTML-Berichts basierend auf Ergebnissen.
 
-## Struktur des HTML-Berichts
+## [Struktur des HTML-Berichts](#StrukturReport)
   - Der HTML-Bericht ernthält einen Zeitstempel und eine Liste der erfolglosen Tests mit Titel, Beschreibung und hervorgehobenen Unterschieden. Die Unterschiede werden in einer "side-to-side"-Ansicht dargestellt.
   - Erfolgreiche Tests sind ebenfalls im Bericht enthalten, mit Titeln und Beschreibungen.
 
-## Struktur der Testfälle
+## [Struktur der Testfälle](#StrukturTestcase)
   - "title": der Titel des Testfalls.
   - "description": eine kurze Beschreibung, was in dem Testfall getestet wird.
   - "steps": die einzelnen Schritte wie die Schnittstelle angefragt wird:
@@ -77,13 +77,13 @@ Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem e
   - Für gewöhnlich wird für jeden einzelnen Testfall ein neuer Nutzer erstellt und am Ende wieder gelöscht.
     
 
-## Fehlererkennung 
+## [Fehlererkennung](#Fehlererkennung)
   - Alle Fehler während der API-Anfragen oder der Generierung des HTML-Berichts werden in der Konsole präsentiert.
 
-## Hinweis
+## [Hinweis](#Hinweis)
   - Stellen Sie sicher, dass eine ".env"-Datei mit den erforderlichen Umgebungsvariablen für die Authentifizierung vorhanden ist.
 
-## Installation
+## [Installation](#Installation)
   - Stellen Sie sicher, dass die neuste Version von Node.js auf ihrem System installiert ist.
     Sie können die neuste Version von Node von der offiziellen Seite downloaden und installieren: [Node.js official website](https://nodejs.org/).
 
@@ -104,7 +104,7 @@ Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem e
    ```shell
    npm install
 
-## Verwendung  
+## [Verwendung](#Verwendung)
   - Platzieren Sie JSON-Testfälle im Verzeichnis "testcases".
   - Führen Sie das Skript aus:
 
@@ -113,5 +113,5 @@ Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem e
 
   - Der HTML-Testbericht wird in dem Verzeichnis "results" erstellt.
 
-## Fazit
+## [Fazit](#Fazit)
 Dieses Skript bietet eine flexible und automatisierte Möglichkeit zur Durchführung von API-Tests, Identifizierung von Unterschieden und Generierung eines umfassenden HTML-Berichts zur Analyse. Anpassungen am Skript können vorgenommen werden, um spezifischen Testanforderungen gerecht zu werden.
