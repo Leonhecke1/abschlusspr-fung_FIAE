@@ -6,7 +6,7 @@
 - [Übersicht](#Übersicht)
 - [Abhängigkeiten](#Abghängigkeiten)
 - [Umgebungsvariablen](#Umgebungsvariablen)
-- [Struktur des Skripts](#StrukturSktript)
+- [Struktur des Skripts](#StrukturSkript)
 - [Struktur des HTML-Berichts](#StrukturReport)
 - [Struktur der Testfälle](#StrukturTestcase)
 - [Fehlererkennung](#Fehlererkennung)
