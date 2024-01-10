@@ -3,19 +3,19 @@
 ## Dokumentation für Bereich MMS
 
 ## Inhaltsverzeichnis
-- [Übersicht](Übersicht)
-- [Abhängigkeiten](Abghängigkeiten)
-- [Umgebungsvariablen](Umgebungsvariablen)
-- [Struktur des Skripts](StrukturSktript)
-- [Struktur des HTML-Berichts](StrukturReport)
-- [Struktur der Testfälle](StrukturTestcase)
-- [Fehlererkennung](Fehlererkennung)
-- [Hinweis](Hinweis)
-- [Installation](Installation)
-- [Verwendung](Verwendung)
-- [Fazit](Fazit)
+- [Übersicht](#Übersicht)
+- [Abhängigkeiten](#Abghängigkeiten)
+- [Umgebungsvariablen](#Umgebungsvariablen)
+- [Struktur des Skripts](#StrukturSktript)
+- [Struktur des HTML-Berichts](#StrukturReport)
+- [Struktur der Testfälle](#StrukturTestcase)
+- [Fehlererkennung](#Fehlererkennung)
+- [Hinweis](#Hinweis)
+- [Installation](#Installation)
+- [Verwendung](#Verwendung)
+- [Fazit](#Fazit)
 
-## Übersicht
+## [Übersicht](#Übersicht)
 
 Dieses Skript führt automatische Schnittstellen-Regressionstests durch, indem es erwartete lokale Daten mit den tatsächlichen API-Antworten vergleicht, und generiert einen HTML-Bericht, der etwaige Unterschiede hervorhebt. Die Test-Szenarien sind in JSON-Dateien im Verzeichnis "testcases" definiert.
 
